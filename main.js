@@ -43,6 +43,7 @@ addBtn.addEventListener('click', () => {
   onAdd();
 });
 input.addEventListener('keypress', (event) => {
+  // TODO : keypress는 이제 사용안함 -> key up으로 변경하기
   if (event.key === 'Enter') {
     onAdd();
   }
