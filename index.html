@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="shopping-list">
+      <header class="shopping-header">
+        <h1>Shopping List</h1>
+      </header>
+      <ul class="shopping-items">
+      </ul>
+      <footer class="shopping-footer">
+        <input
+          type="text"
+          name="item"
+          class="shopping-footer__input"
+          placeholder="add something.."
+        />
+        <button type="button" class="shopping-footer__add">
+          <i class="fa-solid fa-plus" aria-hidden="true"></i>
+          <span class="sr-only">item add button</span>
+        </button>
+      </footer>
+    </section>
+  </body>
+</html>
